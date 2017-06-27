@@ -72,7 +72,7 @@ namespace DonationTracker
             Console.WriteLine("Your name is " + yourName);
             Console.WriteLine("Your address is " + yourAddress);
             Console.WriteLine("Your email address is " + yourEmail);
-            Console.WriteLine("The fiscal year is " + fiscalYear);
+            Console.WriteLine("The fiscal year is " + fiscalYear + "CE.");
 
             //and the donation amount
             double donationAmount = (onesInDollars + fivesInDollars + tensInDollars + twentiesInDollars + fiftiesInDollars + hundredsInDollars + quartersInDollars);
